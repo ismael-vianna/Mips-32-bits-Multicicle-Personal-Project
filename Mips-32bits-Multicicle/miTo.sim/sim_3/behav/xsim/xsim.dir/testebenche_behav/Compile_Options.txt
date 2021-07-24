@@ -1,1 +1,0 @@
--wto "6b16120a2d824e05bcce677717a8d6fd" --incr --debug "typical" --relax --mt "2" -L "mito" -L "oi" -L "unisims_ver" -L "secureip" --snapshot "testebenche_behav" "oi.testebenche" "oi.glbl" -log "elaborate.log" 
