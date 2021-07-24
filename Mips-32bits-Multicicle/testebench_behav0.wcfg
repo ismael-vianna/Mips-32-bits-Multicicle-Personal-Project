@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testebench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="mito_pkg" />
+            <top_module name="testebench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="98.484 ns"></ZoomStartTime>
+      <ZoomEndTime time="197.585 ns"></ZoomEndTime>
+      <Cursor1Time time="133.284 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="195"></NameColumnWidth>
+      <ValueColumnWidth column_width="88"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="53" />
+   <wvobject fp_name="/testebench/clk_s" type="logic">
+      <obj_property name="ElementShortName">clk_s</obj_property>
+      <obj_property name="ObjectShortName">clk_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/reset_s" type="logic">
+      <obj_property name="ElementShortName">reset_s</obj_property>
+      <obj_property name="ObjectShortName">reset_s</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider3">
+      <obj_property name="label">control_unit</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/control_unit_i/pc_enable" type="logic">
+      <obj_property name="ElementShortName">pc_enable</obj_property>
+      <obj_property name="ObjectShortName">pc_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/control_unit_i/ula_flag_zero" type="logic">
+      <obj_property name="ElementShortName">ula_flag_zero</obj_property>
+      <obj_property name="ObjectShortName">ula_flag_zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/control_unit_i/instr_ou_dado" type="logic">
+      <obj_property name="ElementShortName">instr_ou_dado</obj_property>
+      <obj_property name="ObjectShortName">instr_ou_dado</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/control_unit_i/escreve_memoria" type="logic">
+      <obj_property name="ElementShortName">escreve_memoria</obj_property>
+      <obj_property name="ObjectShortName">escreve_memoria</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/control_unit_i/escreve_reg_instr" type="logic">
+      <obj_property name="ElementShortName">escreve_reg_instr</obj_property>
+      <obj_property name="ObjectShortName">escreve_reg_instr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/control_unit_i/reg_mem" type="array">
+      <obj_property name="ElementShortName">reg_mem[1:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_mem[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/control_unit_i/fonte_pc" type="logic">
+      <obj_property name="ElementShortName">fonte_pc</obj_property>
+      <obj_property name="ObjectShortName">fonte_pc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/control_unit_i/ula_op" type="array">
+      <obj_property name="ElementShortName">ula_op[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ula_op[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/control_unit_i/ula_fonte_b" type="logic">
+      <obj_property name="ElementShortName">ula_fonte_b</obj_property>
+      <obj_property name="ObjectShortName">ula_fonte_b</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/control_unit_i/escreve_registrador" type="logic">
+      <obj_property name="ElementShortName">escreve_registrador</obj_property>
+      <obj_property name="ObjectShortName">escreve_registrador</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/control_unit_i/registrador_destino" type="logic">
+      <obj_property name="ElementShortName">registrador_destino</obj_property>
+      <obj_property name="ObjectShortName">registrador_destino</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/control_unit_i/le_operacao" type="array">
+      <obj_property name="ElementShortName">le_operacao[5:0]</obj_property>
+      <obj_property name="ObjectShortName">le_operacao[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/control_unit_i/estado" type="other">
+      <obj_property name="ElementShortName">estado</obj_property>
+      <obj_property name="ObjectShortName">estado</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/control_unit_i/estado_anterior" type="other">
+      <obj_property name="ElementShortName">estado_anterior</obj_property>
+      <obj_property name="ObjectShortName">estado_anterior</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider4">
+      <obj_property name="label">datapath</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/data_path_i/erro_ula" type="other">
+      <obj_property name="ElementShortName">erro_ula</obj_property>
+      <obj_property name="ObjectShortName">erro_ula</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/data_path_i/erro_ula_cntrl" type="other">
+      <obj_property name="ElementShortName">erro_ula_cntrl</obj_property>
+      <obj_property name="ObjectShortName">erro_ula_cntrl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/data_path_i/erro_bnk_regs_rs" type="other">
+      <obj_property name="ElementShortName">erro_bnk_regs_rs</obj_property>
+      <obj_property name="ObjectShortName">erro_bnk_regs_rs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/data_path_i/erro_bnk_regs_rt" type="other">
+      <obj_property name="ElementShortName">erro_bnk_regs_rt</obj_property>
+      <obj_property name="ObjectShortName">erro_bnk_regs_rt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/data_path_i/erro_bnk_regs" type="other">
+      <obj_property name="ElementShortName">erro_bnk_regs</obj_property>
+      <obj_property name="ObjectShortName">erro_bnk_regs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/data_path_i/ula_out" type="array">
+      <obj_property name="ElementShortName">ula_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ula_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/data_path_i/ula_cntrl" type="array">
+      <obj_property name="ElementShortName">ula_cntrl[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ula_cntrl[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/data_path_i/ula_entrada_a" type="array">
+      <obj_property name="ElementShortName">ula_entrada_a[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ula_entrada_a[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/data_path_i/ula_entrada_b" type="array">
+      <obj_property name="ElementShortName">ula_entrada_b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ula_entrada_b[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/data_path_i/ri_rs" type="array">
+      <obj_property name="ElementShortName">ri_rs[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ri_rs[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/data_path_i/ri_rt" type="array">
+      <obj_property name="ElementShortName">ri_rt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ri_rt[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/data_path_i/ri_rd" type="array">
+      <obj_property name="ElementShortName">ri_rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ri_rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/data_path_i/ri_funct" type="array">
+      <obj_property name="ElementShortName">ri_funct[5:0]</obj_property>
+      <obj_property name="ObjectShortName">ri_funct[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/data_path_i/ri_endereco" type="array">
+      <obj_property name="ElementShortName">ri_endereco[8:0]</obj_property>
+      <obj_property name="ObjectShortName">ri_endereco[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/data_path_i/ri_imediato" type="array">
+      <obj_property name="ElementShortName">ri_imediato[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ri_imediato[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/data_path_i/bnk_reg_escreve_registrador_id" type="array">
+      <obj_property name="ElementShortName">bnk_reg_escreve_registrador_id[3:0]</obj_property>
+      <obj_property name="ObjectShortName">bnk_reg_escreve_registrador_id[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/data_path_i/bnk_reg_escreve_dado" type="array">
+      <obj_property name="ElementShortName">bnk_reg_escreve_dado[31:0]</obj_property>
+      <obj_property name="ObjectShortName">bnk_reg_escreve_dado[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/data_path_i/banco_de_registradores_r0" type="array">
+      <obj_property name="ElementShortName">banco_de_registradores_r0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">banco_de_registradores_r0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/data_path_i/banco_de_registradores_r1" type="array">
+      <obj_property name="ElementShortName">banco_de_registradores_r1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">banco_de_registradores_r1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/data_path_i/banco_de_registradores_r2" type="array">
+      <obj_property name="ElementShortName">banco_de_registradores_r2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">banco_de_registradores_r2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/data_path_i/banco_de_registradores_r3" type="array">
+      <obj_property name="ElementShortName">banco_de_registradores_r3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">banco_de_registradores_r3[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/data_path_i/banco_de_registradores_r4" type="array">
+      <obj_property name="ElementShortName">banco_de_registradores_r4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">banco_de_registradores_r4[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/data_path_i/banco_de_registradores_r5" type="array">
+      <obj_property name="ElementShortName">banco_de_registradores_r5[31:0]</obj_property>
+      <obj_property name="ObjectShortName">banco_de_registradores_r5[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/data_path_i/banco_de_registradores_r6" type="array">
+      <obj_property name="ElementShortName">banco_de_registradores_r6[31:0]</obj_property>
+      <obj_property name="ObjectShortName">banco_de_registradores_r6[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/data_path_i/banco_de_registradores_r7" type="array">
+      <obj_property name="ElementShortName">banco_de_registradores_r7[31:0]</obj_property>
+      <obj_property name="ObjectShortName">banco_de_registradores_r7[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/data_path_i/registrador_b" type="array">
+      <obj_property name="ElementShortName">registrador_b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">registrador_b[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/data_path_i/registrador_mdr" type="array">
+      <obj_property name="ElementShortName">registrador_mdr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">registrador_mdr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/data_path_i/registrador_pc" type="array">
+      <obj_property name="ElementShortName">registrador_pc[8:0]</obj_property>
+      <obj_property name="ObjectShortName">registrador_pc[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/data_path_i/ZEROS32" type="array">
+      <obj_property name="ElementShortName">ZEROS32[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ZEROS32[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider5">
+      <obj_property name="label">memory</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/memory_i/escrita" type="logic">
+      <obj_property name="ElementShortName">escrita</obj_property>
+      <obj_property name="ObjectShortName">escrita</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/memory_i/entrada_memoria" type="array">
+      <obj_property name="ElementShortName">entrada_memoria[31:0]</obj_property>
+      <obj_property name="ObjectShortName">entrada_memoria[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/memory_i/endereco_memoria" type="array">
+      <obj_property name="ElementShortName">endereco_memoria[8:0]</obj_property>
+      <obj_property name="ObjectShortName">endereco_memoria[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/memory_i/saida_memoria" type="array">
+      <obj_property name="ElementShortName">saida_memoria[31:0]</obj_property>
+      <obj_property name="ObjectShortName">saida_memoria[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/memory_i/mem" type="array">
+      <obj_property name="ElementShortName">mem[0:511][7:0]</obj_property>
+      <obj_property name="ObjectShortName">mem[0:511][7:0]</obj_property>
+   </wvobject>
+</wave_config>
